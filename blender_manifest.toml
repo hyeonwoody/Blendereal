@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "blendereal"
+name = "Blendereal"
+version = "1.0.0"
+
+tagline = "3D workflow tools for Blender and Unreal Engine integration"
+maintainer = "Hyeonwoody"
+type = "add-on"
+tags = ["Mesh"]
+blender_version_min = "5.0.1"
+blender_version_max = "5.1.0"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://github.com/hyeonwoody/Blendereal"
+
+[permissions]
+network = "Need to sync vertex data to server"
+clipboard = "Copy and paste bone transforms"
