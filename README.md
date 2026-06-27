@@ -4,9 +4,9 @@ Blender에서 Mesh Vertex 좌표를 추출하고
 이를 콘솔 출력 또는 외부 시스템으로 확장 가능한 형태의 확장 도구.
 
 ## 🧑‍💻: Intro
-❓ Problem : 블렌더와 언리얼 엔진 간의  😮
+❓ Problem : 블렌더와 언리얼 엔진 간의 Vertex 데이터를 주고받을 표준화된 방법이 없다 😮
 
-❗ Idea : 도메인 분리하고 각 계층의 책임을 명확히 한다 🤔
+❗ Idea : Vertex 정보를 별도의 서버에 저장한 뒤 언리얼에서 불러온다 🤔
 
 💯 Solution : 레이어드 아키텍처 구조로 Vertex / Edge / Face 도메인을 독립적으로 관리 😁
 
