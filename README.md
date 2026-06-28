@@ -12,13 +12,6 @@ Blender에서 Mesh Vertex 좌표를 추출하고
 
 </br>
 
-## 🖥️: API Documentation
-
-
-</br>
-
-</br>
-
 ## 🧱: Structure
 ```
 Presentation Layer 
@@ -30,10 +23,6 @@ Infrastructure (Planned)
 ├── gRPC Client 
 └── Queue Worker
 ```
-</br>
-
-## 🛢️: Entity Relationship Diagram
-
 </br>
 
  ## 🚀: Build & Run
@@ -69,37 +58,18 @@ blender --command extension build
 > 💡 `build.sh`에는 Blender 실행 파일 경로가 하드코딩되어 있습니다.
 > 설치 환경에 맞게 경로를 수정하거나, PATH에 등록된 `blender` 명령을 직접 사용하세요.
 
-### Run
-3D Viewport에서 패널을 열어 Mesh Vertex 좌표 추출 기능을 사용합니다.
 </br>
 
-## 🗓️: Development Period
+### Run
+3D Viewport에서 패널을 열어 Mesh Vertex 좌표 추출 기능을 사용합니다. <br>
+![Diagram](/docs/20260628_092312.png)
 
-<br>
-
-## 🔥: Accomplishments
-
-<br>
-
-## ✅: Implementation
-
-<br>
+</br>
 
 ## 📓: Log
 
 ### 2026.04.09
 Init project repository.
-
-
-<br>
-
-## 🎥: Demonstration
-
-</br>
-
-## 🎨: Design
-
-</br>
 
 ## 📞: Contact
 - 이메일: hyeonwoody@gmail.com
@@ -116,7 +86,7 @@ Init project repository.
 </br>
 
 ## 📚: Libraries Used
-> bpy (Blender Python API)
+> bpy (Blender Python API) <br>
 > bmesh
 
 ## 📖: Wiki
